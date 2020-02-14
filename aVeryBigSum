@@ -1,0 +1,16 @@
+// Complete the aVeryBigSum function below.
+function aVeryBigSum(ar) {
+    let sum = 0;
+    ar.forEach(integer => {
+        sum += integer;
+    });
+    return sum;
+}
+
+Input (stdin)
+5
+1000000001 1000000002 1000000003 1000000004 1000000005
+
+
+Expected Output
+5000000015
